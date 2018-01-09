@@ -1,0 +1,11 @@
+{
+  "eventId":"80aece08-40e8-4145-8764-6c2f0d38678",
+  "eventCreated":1234567,
+  "storeId":11829517,
+  "entityId":69, 
+  "eventType":"order.created",
+  "data":{
+    "newPaymentStatus":"PAID",
+    "newFulfillmentStatus":"SHIPPED"
+  }
+}

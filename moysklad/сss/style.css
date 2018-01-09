@@ -1,0 +1,48 @@
+.center,
+.g-recaptcha{
+    margin: 0 auto;
+}
+.head h3{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.moysklad_login_form, .estis_api_form, .estis_form_lists, .subscribe_all_form{
+    margin-top: 40px;
+    padding: 40px 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+
+.moysklad_login_form{
+    padding: 52px 40px 118px 40px;
+}
+
+.moysklad_login_form button{
+    margin: 30px 0 30px;
+    width: 100%;
+}
+.estis-button{
+    margin-top: 30px;
+    width: 100%;
+}
+.moysklad_login_form .alert{
+    padding: 20px 20px;
+    margin-top: 30px;
+}
+
+.logout, .deactivate {
+    margin: 0;
+    width: 25%;
+}
+
+.estis-menu-container{
+    width: 25%;
+    float: left;
+}
+.estis-menu-container:nth-last-of-type(1){
+    float: right;
+}

@@ -1,0 +1,31 @@
+{
+    "widget":{
+            "name": "estisma",
+            "description": "widget.description",
+            "short_description": "widget.short_description",
+            "code": "estisma",
+            "secret_key": "28e4f35fde428e8aeceac2e06d2c60089eb4e786ffb49aa4f0af929138c48320",
+            "version": "2.2.11",
+            "interface_version": 2,
+            "init_once": true,
+            "locale":[
+                    "ru",
+                    "en"
+                    ],
+            "installation": true
+            },
+    "locations":[
+            "ccard-1",
+            "clist-0",
+            "lcard-1",
+            "llist-0",
+            "settings"
+            ],
+    "settings":{
+                "api_key":{
+                        "name": "settings.api_key",
+                        "type": "text",
+                        "required": true
+                        }
+            }
+}

@@ -1,0 +1,89 @@
+.estis-first-connection-alert, .estis-updated-alert{
+    display: none;
+}
+.fullscreen-bg__video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+.center{
+    margin: 0 auto;
+}
+.estis_form, .InSales, .modal-content, .estis_form_lists, .estis_form_subscribe_statistic, .estis_all_clients_statistic, .subscribe_all_form{
+    margin-top: 13px;
+    padding: 25px 50px 10px 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+    opacity: .7;
+    background: #000;
+    color: #fff;
+}
+.modal-content{
+    opacity: .9;
+}
+.estis_form_lists .form-check-label{
+    float: right;
+}
+.estis_form{
+    position: relative;
+}
+
+.btn-div{
+    margin-top: 35px;
+}
+.head{
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+    text-shadow: 0 0 20px #818182;
+}
+.estis_form .estis-control{
+    margin-top: 30px;
+}
+.InSales{
+    position: relative;
+    padding: 50px 40px 30px 40px;
+}
+#exampleModal{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.btn-container{
+    margin-top: 30px;
+}
+.InSales p{
+    display: block;
+    flex-direction: row-reverse;
+}
+
+ul.estis_subscribe_all_listing{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    opacity: .5
+}
+ul.estis_subscribe_all_listing li{
+    background: #000;
+    color: #fff;
+}
+@media (max-width: 767px) {
+    body {
+        background: url('../img/I_Just_Wanted.jpg') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+

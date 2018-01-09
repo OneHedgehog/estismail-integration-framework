@@ -1,0 +1,39 @@
+.js-estismail-caption, .card-widgets__widget-estisma{
+    padding: 10px 0;
+    background: #2e3640;
+}
+.estismail-dark-magic-main-form{
+
+}
+
+.estismail-dark-magic-main-form select{
+    width: 91%;
+    background: #d8d9db;
+    margin: 20px auto;
+    display: block;;
+    height: 30px;
+    box-shadow: 0px 0px 3px #fff;
+    border-radius: 4px;
+}
+.estismail-dark-magic-main-form .estismail-feel-the-power-of-darkside-button{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    background: #1375ab;
+    display: block;
+    border-radius: 10px;
+    padding: 7px 0px;
+    font-weight: 900;
+}
+.estismail-dark-magic-main-form .estismail-feel-the-power-of-darkside-button:hover{
+    box-shadow: 0px 0px 12px #1375ab
+}
+.estismail-dark-magic-main-form .estismail-feel-the-power-of-darkside-button:active{
+    box-shadow: 0px 0px 12px #00a4ff;
+}
+
+
+
+
+

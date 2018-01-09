@@ -1,0 +1,21 @@
+
+.center{
+    margin: 0 auto;
+}
+.estis-contanier{
+    margin-top: 60px;
+    color: #fff;
+    background: rgba( 0, 0, 0, 0.83);
+    padding: 40px 50px 50px 50px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.estis-contanier button{
+    width: 100%;
+}
+.estis-contanier h4{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}

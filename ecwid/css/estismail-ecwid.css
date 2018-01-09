@@ -1,0 +1,71 @@
+#estis-app-contet{
+    width: 100%;
+    min-height: 400px;
+}
+.estimail-main-app, .estis-save-settings{
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.estimail-main-app h3, .estis-save-settings h3{
+    text-align: center;
+}
+.estimail-main-app .input-append{
+    margin-top: 10px;
+}
+.estis-checkbox{
+    padding-right: 20px;
+}
+.estis-but{
+    display: block;
+    margin: 30px auto;
+}
+.estimail-main-app .alert{
+    margin-bottom: 30px;
+}
+.estis-label{
+    display: block;
+    padding-bottom: 10px;
+}
+.estis-checkbox-container{
+    padding-top: 15px;
+}
+.estis-btn-container{
+    clear: both;
+}
+.estis-checkbox-container{
+    margin-top: 20px;
+}
+.estis-checkbox-container label{
+    float: right;
+}
+#save-estis span b{
+    float: right;
+    font-size: 16px;
+}
+.main-popup{
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 27%;
+    bottom: 0;
+    right: 0;
+}
+#settings{
+    display: none;
+}
+.fatal_error{
+    display: none;
+}
+/*.estis-save-settings{*/
+    /**/
+    /*-webkit-border-radius: 15px;*/
+    /*-moz-border-radius: 15px;*/
+    /*border-radius: 3px;*/
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.3);*/
+/*}*/

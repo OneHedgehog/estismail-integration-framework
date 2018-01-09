@@ -1,0 +1,23 @@
+#type of url
+#http://proger.estiscloud.pro/integration/insaledsfs/dsdsfsdfsdfsdgsdg/
+
+#php_value display_errors 1
+#php_value display_startup_errors 1
+#php_value error_reporting E_ALL
+
+#LogLevel warn rewrite:trace4
+
+
+RewriteEngine On    # Turn on the rewriting engine
+#RewriteCond %{QUERY_STRING} ^ELEMENT_ID=380
+RewriteBase /
+
+# /anything/anything -> anything.php?url=anything
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)/insales/login?$ /login/?insales_id=$1&shop=$2&user_email=$3&user_id=$4 [QSA,N,L]
+
+#rewrite /{{system}}/{{action}}/ url to main index file
+#RewriteRule ^(.*)/(.*)/$ integration/index.php?system=$1&action=$2
+
+RewriteRule ^([^\/]+)/([^\/]+)\/?(?:\?(.*))?$ integration/index.php?system=$1&action=$2&$3 [QSA,N,L]
