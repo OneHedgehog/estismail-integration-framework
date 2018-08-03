@@ -25,9 +25,9 @@ Subscribe user after checkout. Add a checkbox for subscription confirm.
 Subscribe by adding a user to owner account
 
 
-###How it works...
+### How it works...
 
-##Entry point ( step 1)
+## Entry point ( step 1)
 
 first look at '.htaccess' in root folder:
 
