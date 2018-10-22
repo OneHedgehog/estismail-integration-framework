@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dima
- * Date: 9/25/17
- * Time: 1:10 PM
- */
 
 namespace Integration\Common;
 
