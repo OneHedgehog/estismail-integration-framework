@@ -38,8 +38,6 @@ class Postgres extends Config
      */
     public function query($query, $data = array())
     {
-
-
         $ret = pg_query_params($this->_connection, $query, $data);
 
 	    $error = pg_last_error($this->_connection);
